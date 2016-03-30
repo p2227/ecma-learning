@@ -1,0 +1,29 @@
+{
+  "name": "ecma-learning",
+  "version": "1.0.0",
+  "description": "learn ecma spec using test framework",
+  "engines": {
+    "node": ">=5.4.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p2227/ecma-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p2227/ecma-learning/issues"
+  },
+  "homepage": "https://github.com/p2227/ecma-learning#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  }
+}
