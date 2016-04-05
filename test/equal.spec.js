@@ -32,7 +32,7 @@ describe('==的基本用法', function() {
 
   it('对象与基本类型进行比较，会先调用对象的valueOf方法，然后是toString方法', function() {
     expect({ valueOf: () => 1 } == 1).to.be.ok;
-    expect({ valueOf: () => '1' } == 1).to.be.ok;
+    expect({ toString: () => '1' } == 1).to.be.ok;
 
     const callbackValue = sinon.spy();
     const callbackString = sinon.spy();
